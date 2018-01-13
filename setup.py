@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='bigacme-dummy-plugin',
-    version='1.0.0',
+    version='1.0.1',
     description="Dummy plugin for bigacme",
     url='https://github.com/magnuswatn/bigacme-dummy-plugin',
     author="Magnus Watn",
@@ -13,7 +13,7 @@ setup(
         ],
     entry_points={
         'bigacme.plugins': [
-            'dummy = bigacme_dummy_plugin:Authenticator',
+            'dummy = bigacme_dummy_plugin:DummyPlugin',
         ],
     }
 )
